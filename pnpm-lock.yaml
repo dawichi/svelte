@@ -4,6 +4,7 @@ specifiers:
   '@sveltejs/vite-plugin-svelte': ^1.0.0-next.30
   '@tsconfig/svelte': ^2.0.1
   autoprefixer: ^10.4.2
+  moment: ^2.29.1
   postcss: ^8.4.7
   prettier: ^2.5.1
   prettier-plugin-svelte: ^2.6.0
@@ -14,6 +15,9 @@ specifiers:
   tslib: ^2.3.1
   typescript: ^4.5.4
   vite: ^2.8.0
+
+dependencies:
+  moment: 2.29.1
 
 devDependencies:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.37_svelte@3.46.4+vite@2.8.4
@@ -784,6 +788,10 @@ packages:
     dependencies:
       minimist: 1.2.5
     dev: true
+
+  /moment/2.29.1:
+    resolution: {integrity: sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==}
+    dev: false
 
   /mri/1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
