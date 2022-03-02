@@ -1,38 +1,38 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sveltejs/vite-plugin-svelte': ^1.0.0-next.30
-  '@tsconfig/svelte': ^2.0.1
-  autoprefixer: ^10.4.2
-  moment: ^2.29.1
-  postcss: ^8.4.7
-  prettier: ^2.5.1
-  prettier-plugin-svelte: ^2.6.0
-  svelte: ^3.44.0
-  svelte-check: ^2.2.7
-  svelte-preprocess: ^4.9.8
-  tailwindcss: ^3.0.23
-  tslib: ^2.3.1
-  typescript: ^4.5.4
-  vite: ^2.8.0
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.39
+  '@tsconfig/svelte': 3.0.0
+  autoprefixer: 10.4.2
+  moment: 2.29.1
+  postcss: 8.4.7
+  prettier: 2.5.1
+  prettier-plugin-svelte: 2.6.0
+  svelte: 3.46.4
+  svelte-check: 2.4.5
+  svelte-preprocess: 4.10.4
+  tailwindcss: 3.0.23
+  tslib: 2.3.1
+  typescript: 4.6.2
+  vite: 2.8.6
 
 dependencies:
   moment: 2.29.1
 
 devDependencies:
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.37_svelte@3.46.4+vite@2.8.4
-  '@tsconfig/svelte': 2.0.1
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.39_svelte@3.46.4+vite@2.8.6
+  '@tsconfig/svelte': 3.0.0
   autoprefixer: 10.4.2_postcss@8.4.7
   postcss: 8.4.7
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.4
   svelte: 3.46.4
   svelte-check: 2.4.5_postcss@8.4.7+svelte@3.46.4
-  svelte-preprocess: 4.10.4_a0cd0ad457ceb279f34df570abe54a6b
+  svelte-preprocess: 4.10.4_e836cbb8ceb5bfaa7513362dd6308834
   tailwindcss: 3.0.23_autoprefixer@10.4.2
   tslib: 2.3.1
-  typescript: 4.5.5
-  vite: 2.8.4
+  typescript: 4.6.2
+  vite: 2.8.6
 
 packages:
 
@@ -86,8 +86,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.37_svelte@3.46.4+vite@2.8.4:
-    resolution: {integrity: sha512-EdSXw2rXeOahNrQfMJVZxa/NxZxW1a0TiBI3s+pVxnxU14hEQtnkLtdbTFhnceu22gJpNPFSIJRcIwRBBDQIeA==}
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.39_svelte@3.46.4+vite@2.8.6:
+    resolution: {integrity: sha512-gnvvcAW2LK+KnUn8lKb2ypcXKwSp2K57mem5C4VNKfjxdRpM6+XwNavWwVf6otnDhz3qPYl/TKKW6/dRr6eeAw==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
       diff-match-patch: ^1.0.5
@@ -103,13 +103,13 @@ packages:
       magic-string: 0.25.7
       svelte: 3.46.4
       svelte-hmr: 0.14.9_svelte@3.46.4
-      vite: 2.8.4
+      vite: 2.8.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@tsconfig/svelte/2.0.1:
-    resolution: {integrity: sha512-aqkICXbM1oX5FfgZd2qSSAGdyo/NRxjWCamxoyi3T8iVQnzGge19HhDYzZ6NrVOW7bhcWNSq9XexWFtMzbB24A==}
+  /@tsconfig/svelte/3.0.0:
+    resolution: {integrity: sha512-pYrtLtOwku/7r1i9AMONsJMVYAtk3hzOfiGNekhtq5tYBGA7unMve8RvUclKLMT3PrihvJqUmzsRGh0RP84hKg==}
     dev: true
 
   /@types/node/17.0.21:
@@ -1079,8 +1079,8 @@ packages:
       sade: 1.8.1
       source-map: 0.7.3
       svelte: 3.46.4
-      svelte-preprocess: 4.10.4_a0cd0ad457ceb279f34df570abe54a6b
-      typescript: 4.5.5
+      svelte-preprocess: 4.10.4_e836cbb8ceb5bfaa7513362dd6308834
+      typescript: 4.6.2
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -1102,7 +1102,7 @@ packages:
       svelte: 3.46.4
     dev: true
 
-  /svelte-preprocess/4.10.4_a0cd0ad457ceb279f34df570abe54a6b:
+  /svelte-preprocess/4.10.4_e836cbb8ceb5bfaa7513362dd6308834:
     resolution: {integrity: sha512-fuwol0N4UoHsNQolLFbMqWivqcJ9N0vfWO9IuPAiX/5okfoGXURyJ6nECbuEIv0nU3M8Xe2I1ONNje2buk7l6A==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -1151,7 +1151,7 @@ packages:
       sorcery: 0.10.0
       strip-indent: 3.0.0
       svelte: 3.46.4
-      typescript: 4.5.5
+      typescript: 4.6.2
     dev: true
 
   /svelte/3.46.4:
@@ -1203,8 +1203,8 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
 
-  /typescript/4.5.5:
-    resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}
+  /typescript/4.6.2:
+    resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
@@ -1213,8 +1213,8 @@ packages:
     resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
     dev: true
 
-  /vite/2.8.4:
-    resolution: {integrity: sha512-GwtOkkaT2LDI82uWZKcrpRQxP5tymLnC7hVHHqNkhFNknYr0hJUlDLfhVRgngJvAy3RwypkDCWtTKn1BjO96Dw==}
+  /vite/2.8.6:
+    resolution: {integrity: sha512-e4H0QpludOVKkmOsRyqQ7LTcMUDF3mcgyNU4lmi0B5JUbe0ZxeBBl8VoZ8Y6Rfn9eFKYtdXNPcYK97ZwH+K2ug==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:

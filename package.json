@@ -11,21 +11,21 @@
         "prettier:w": "prettier --write --plugin-search-dir=. **/*.{js,jsx,ts,tsx,json,svelte} && prettier --plugin-search-dir=. --write *.{js,jsx,ts,tsx,json,svelte}"
     },
     "devDependencies": {
-        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
-        "@tsconfig/svelte": "^2.0.1",
-        "autoprefixer": "^10.4.2",
-        "postcss": "^8.4.7",
-        "prettier": "^2.5.1",
-        "prettier-plugin-svelte": "^2.6.0",
-        "svelte": "^3.44.0",
-        "svelte-check": "^2.2.7",
-        "svelte-preprocess": "^4.9.8",
-        "tailwindcss": "^3.0.23",
-        "tslib": "^2.3.1",
-        "typescript": "^4.5.4",
-        "vite": "^2.8.0"
+        "@sveltejs/vite-plugin-svelte": "1.0.0-next.39",
+        "@tsconfig/svelte": "3.0.0",
+        "autoprefixer": "10.4.2",
+        "postcss": "8.4.7",
+        "prettier": "2.5.1",
+        "prettier-plugin-svelte": "2.6.0",
+        "svelte": "3.46.4",
+        "svelte-check": "2.4.5",
+        "svelte-preprocess": "4.10.4",
+        "tailwindcss": "3.0.23",
+        "tslib": "2.3.1",
+        "typescript": "4.6.2",
+        "vite": "2.8.6"
     },
     "dependencies": {
-        "moment": "^2.29.1"
+        "moment": "2.29.1"
     }
 }

@@ -1,41 +1,21 @@
 <script lang="ts">
     import Counter from './components/Counter.svelte'
     import Header from './components/Header.svelte'
-    import TailwindCSS from './components/Tailwindcss.svelte'
-    import Note from './components/Note.svelte'
+    import Feed from './components/Feed.svelte'
+
+    import './styles/main.css'
 </script>
 
-<TailwindCSS />
-
 <header>
-	<Header />
+    <Header />
 </header>
 
 <main>
     <Counter />
 
-
-	<div class="container mx-auto p-4 rounded grid gap-4 grid-cols-4 bg-zinc-200">
-		<Note
-			id={1234}
-			title={'Some Note'}
-			content={'This note is about this and that'}
-			tags={['test', 'text']}
-			date={'20210806120000'}
-			isFavorite={true}
-		/>
-		<Note
-			id={1234}
-			title={'Some Note'}
-			content={'This note is about this and that'}
-			tags={['test', 'text']}
-			date={'20210806120000'}
-			isFavorite={true}
-		/>
-	</div>
-
+    <Feed />
 </main>
 
-<footer>
-	footer
+<footer class="bg-zinc-900 text-white p-4 mt-20">
+    footer
 </footer>
